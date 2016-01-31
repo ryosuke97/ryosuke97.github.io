@@ -9,9 +9,9 @@ var lat;
 navigator.geolocation.getCurrentPosition(function(evt){
 
   //緯度
-  var lon = evt.coords.longitude;
+  lon = evt.coords.longitude;
   //経度
-  var lat = evt.coods.latitude;
+  lat = evt.coods.latitude;
 
 },
 function(error){
