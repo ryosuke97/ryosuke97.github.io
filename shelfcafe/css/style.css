@@ -100,6 +100,8 @@ nav li a:link, nav li a:visited{
 }
 
 @media screen and (min-width:768px){
+	
+
 	nav ul li{
 		width:150px;
 		float:left;
@@ -119,4 +121,38 @@ nav li a:link, nav li a:visited{
 		text-align: left;
 	}
 }
+
+/*mainVisual*/
+
+#mainVisual {
+	margin-bottom: 40px;
+	width: 100%;
+}
+
+#mainVisual img {
+	width: 100%;
+	max-width: 100%;
+}
+
+
+@media screen and (min-width:768px){
+#mainVisual{
+	width: 950px;
+	margin-bottom: 40px;
+}
+#mainVisual img {
+	width: 950px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
 
