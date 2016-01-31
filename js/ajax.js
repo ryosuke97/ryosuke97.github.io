@@ -29,6 +29,6 @@ function showContent(data){
   for (var i = 0; i < data.length; i++) {
     $('#container li').eq(i).text(data[i].name);
   }
-
+}
 
 });
