@@ -27,7 +27,7 @@ function showContent(data){
   //$('#container').append(data);
 
   for (var i = 0; i < data.length; i++) {
-    $('#container li').eq(i).text(data[i].name);
+    $('#container li').eq(i).text(data[i].name + 'さんの住んでいるところは' + data[i].address + 'です');
   }
 }
 
