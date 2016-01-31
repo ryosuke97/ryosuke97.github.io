@@ -11,7 +11,7 @@ navigator.geolocation.getCurrentPosition(function(evt){
   //緯度
   lon = evt.coords.longitude;
   //経度
-  lat = evt.coods.latitude;
+  lat = evt.coords.latitude;
 
 },
 function(error){
